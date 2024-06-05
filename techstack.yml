@@ -1,0 +1,806 @@
+repo_name: velesnitski/Next-js-Boilerplate
+report_id: ca5ff4f7717f1d6871096bb302e2b3f7
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-05T12:09:27+00:00'
+requested_by: ixartz
+provider: github
+branch: main
+detected_tools_count: 61
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/migrations/0000_init_db.sql
+  detection_source: migrations/0000_init_db.sql
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-08-18 23:27:37.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-04-02 22:28:19.000000000 Z
+- name: Next.js
+  description: A small framework for server-rendered universal JavaScript apps
+  website_url: https://nextjs.org/
+  version: 14.2.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-01-07 17:15:32.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/.github/workflows/CI.yml
+  detection_source: ".github/workflows/CI.yml"
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-22 15:24:28.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: Visual Studio Code
+  description: Build and debug modern web and cloud applications, by Microsoft
+  website_url: https://code.visualstudio.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/.vscode/tasks.json
+  detection_source: ".vscode/tasks.json"
+  last_updated_by: Rémi Weng
+  last_updated_on: 2021-06-29 17:32:45.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 24.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate
+  detection_source: Repo Metadata
+- name: Zod
+  description: TypeScript-first schema validation
+  website_url: https://zod.dev/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48521/default_eea961e4c374e68a1c7eb5bbc9e4a39920890342.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: cssnano
+  description: A modular minifier, based on the PostCSS ecosystem. Created by @ben_eb.
+  website_url: http://cssnano.co/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-06 15:40:36.000000000 Z
+- name: eslint-plugin-tailwindcss
+  description: Rules enforcing best practices and consistency using Tailwind CSS.
+  website_url: https://www.npmjs.com/package/eslint-plugin-tailwindcss
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48327/default_e1e547104832f8e187369b19e928e17a8be5020b.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-04-04 22:30:22.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-18 01:40:43.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 19.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 19.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@semantic-release/changelog"
+  description: Semantic-release plugin to create or update a changelog file
+  package_url: https://www.npmjs.com/@semantic-release/changelog
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16473/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-18 01:40:43.000000000 Z
+- name: "@semantic-release/git"
+  description: Semantic-release plugin to commit release assets to the project's git
+    repository
+  package_url: https://www.npmjs.com/@semantic-release/git
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16388/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-18 01:40:43.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 8.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 8.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 6.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 15.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.19.33
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 7.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 7.11.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: commitizen
+  description: Git commit, but play nice with conventions
+  package_url: https://www.npmjs.com/commitizen
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16008/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-06 15:40:36.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-06 15:40:36.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 14.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.34.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 14.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2023-12-18 11:05:33.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 9.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-04-04 22:30:22.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 15.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: pino
+  description: Super fast, all natural json logger
+  package_url: https://www.npmjs.com/pino
+  version: 8.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16974/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: pino-pretty
+  description: Prettifier for Pino log lines
+  package_url: https://www.npmjs.com/pino-pretty
+  version: 10.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18639/default_f02e96cdbc1c3cf01dabe59b227d3b3961e56b72.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-30 20:10:56.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-18 01:40:43.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 23.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-18 01:40:43.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.33.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-18 01:40:43.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/velesnitski/Next-js-Boilerplate/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rémi Weng
+  last_updated_on: 2024-05-29 10:12:41.000000000 Z
